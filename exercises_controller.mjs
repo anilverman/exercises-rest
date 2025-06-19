@@ -5,6 +5,7 @@ import 'dotenv/config';
 import express from 'express';
 import asyncHandler from 'express-async-handler';
 import * as exercises from './exercises_model.mjs';
+import cors from 'cors';
 
 const ERROR_NOT_FOUND = {Error: "Not found"};
 const ERROR_INVALID_REQUEST = { Error: "Invalid request"};
@@ -13,6 +14,10 @@ const PORT = process.env.PORT;
 const app = express();
 
 app.use(express.json());
+
+app.use(cors({
+  origin: 'https://exercises-react-pi.vercel.app'
+}));
 
 app.listen(PORT, async () => {
     await exercises.connect()
