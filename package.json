@@ -2,7 +2,7 @@
   "name": "exercises_rest",
   "version": "1.0.0",
   "description": "",
-  "main": "exercise_controller.mjs",
+  "main": "exercises_controller.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node exercises_controller.mjs"
@@ -13,7 +13,6 @@
     "dotenv": "^16.5.0",
     "express": "^4.21.2",
     "express-async-handler": "^1.2.0",
-    "mongoose": "^8.15.0",
-    "nodemon": "^3.1.10"
+    "mongoose": "^8.15.0"
   }
 }
