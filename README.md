@@ -4,6 +4,7 @@ This is the **Express.js backend** for the Full-Stack Exercise Tracker App. It s
 
 ## 🌐 Live Backend URL
 👉 [https://exercises-rest.onrender.com/exercises](https://exercises-rest.onrender.com/exercises)
+**Hosted on Render**
 
 ## ⚙️ Tech Stack
 - Node.js
