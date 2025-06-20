@@ -22,5 +22,8 @@ This is the **Express.js backend** for the Full-Stack Exercise Tracker App. It s
 | PUT    | `/exercises/:id`   | Update an exercise   |
 | DELETE | `/exercises/:id`   | Delete an exercise   |
 
-## 🔗 Related Projects
-- **Frontend (React):** [https://github.com/anilverman/exercises-react](https://github.com/anilverman/exercises-react)
+## 🔗 Project Links
+
+- 🔗 **Live Demo**: [https://exercises-react.vercel.app](https://exercises-react.vercel.app)  
+- 🧠 **Frontend Repo**: [https://github.com/anilverman/exercises-react](https://github.com/anilverman/exercises-react)  
+- 🔧 **Backend Repo**: [https://github.com/anilverman/exercises-rest](https://github.com/anilverman/exercises-rest)
