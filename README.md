@@ -1,7 +1,7 @@
 # 🏋️ Exercise Tracker – Backend
 ![GitHub last commit](https://img.shields.io/github/last-commit/anilverman/exercises-rest)
 ![GitHub repo size](https://img.shields.io/github/repo-size/anilverman/exercises-rest)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fexercises-react.vercel.app)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fexercises-rest.onrender.com)
 
 This is the **Express.js backend** for the Full-Stack Exercise Tracker App. It serves a RESTful API and connects to MongoDB for persistent storage.
 
